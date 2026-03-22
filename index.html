@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Central de IAs</title>
+        <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+            .cabecalho {
+                margin: 5px;
+                background-color: #1545C9;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                height: 100px;
+                border-radius: 12px;
+            }
+            
+            .logo {
+                width: 80px;
+                height: 80px;
+                border-radius: 16px;
+            }
+
+            .menu {
+                display: flex;
+                list-style: none;
+                gap: 44px;
+                color: #FFFFFF;
+                font-weight: bold;
+                font-family: Arial;
+                font-size: 25px;
+            }
+
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+
+            .principal {
+                display: flex;
+                justify-content: space-around;
+                height: 500px;
+                background-color: #FFFFFF;
+                align-items: center;
+            }
+
+            .caixa1 {
+                background-color: #FFE5C8;
+                width: 225px;
+                height: 225px;
+                border-radius: 16px;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+            }
+
+            .caixa1 img {
+                max-width: 200px;
+                object-fit: contain;
+            }
+
+            .caixa2 {
+                background-color: #FFEDE8;
+                width: 225px;
+                height: 225px;
+                border-radius: 16px;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+            }
+
+            .caixa2 img {
+                max-width: 200px;
+                object-fit: contain;
+            }
+            
+            .secundaria {
+                margin: 5px;
+                background-color: #009be2;
+                height: 384px;
+                padding-top: 20px;
+                border-radius: 12px;
+            }
+
+            .titulo-secao {
+                text-align: center;
+                margin: 0;
+                color: #FFFFFF;
+                font-weight: bold;
+                font-family: Arial;
+                font-size: 20px;
+            }
+            
+            .textos {
+                display: flex;
+                text-align: center;
+                font-size: 15px;
+                color: #FFFFFF;
+                align-items: center;
+                height: 310px;
+                justify-content: space-around;
+                font-family: Arial;
+            }
+            
+            .p-texto {
+                width: 350px;
+            }
+
+            .rodape {
+                display: flex;
+                background-color: #161616;
+                color: #ffffff;
+                justify-content: space-around;
+                align-items: center;
+                font-family: Arial;
+                font-style: italic;
+                font-size: 15px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            
+            .circulo {
+                background-color: #ffffff;
+                width: 40px;
+                height: 40px;
+                border-radius: 100px;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+            }
+
+            .circulo img {
+                max-width: 45px;
+                max-height: 45px;
+                object-fit: contain;
+            }
+
+            /* .circulos {
+                display: flex;
+            } */
+        </style>
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <img
+                class="logo"
+                src="logo.png"
+            />
+            <ul class="menu">
+                <li>Início</li>
+                <li><a href="https://copilot.microsoft.com">Abrir MS Copilot</a></li>
+                <li><a href="https://claude.ai/">Abrir Claude AI</a></li>
+            </ul>
+        </header>
+
+        <section class="principal">
+            <div class="caixa1">
+                <a href="https://copilot.microsoft.com">
+                    <img src="Icone_MSCopilot.svg"/>
+                </a>
+            </div>
+            <div class="caixa2">
+                <a href="https://claude.ai/">
+                    <img src="Icone_Claude.svg"/>
+                </a>
+            </div>
+        </section>
+
+        <section class="secundaria">
+            <h2 class="titulo-secao">Microsoft Copilot x Claude AI</h2>
+            <div class="textos">
+                <div>
+                    <h3>Microsoft Copilot</h3>
+                    <p class="p-texto">
+                        O Microsoft Copilot consolidou-se como uma das ferramentas de IA mais poderosas para produtividade, atuando como um assistente inteligente integrado nativamente ao ecossistema do Windows e do Microsoft 365. Utilizando modelos avançados (como o GPT-4 e sucessores), ele vai além de responder perguntas, sendo capaz de criar apresentações no PowerPoint a partir de um rascunho, analisar dados complexos em planilhas do Excel e resumir reuniões em tempo real no Teams. Em sua fase atual em 2026, a ferramenta destaca-se pela capacidade de agente autônomo, conseguindo não apenas sugerir textos, mas executar tarefas coordenadas entre diferentes aplicativos, sempre respeitando rigorosos protocolos de segurança corporativa e privacidade de dados.
+                    </p>
+                </div>
+                <div>
+                    <h3>Claude AI</h3>
+                    <p class="p-texto">
+                        O Claude consolidou-se no mercado como uma inteligência artificial que prioriza a segurança, a ética e a naturalidade na comunicação através de sua abordagem de "IA Constitucional". Em suas versões mais recentes, como o Claude 4.6, a ferramenta destaca-se por uma janela de contexto massiva (capaz de processar centenas de páginas de uma só vez) e por uma capacidade de escrita que mimetiza o tom humano com precisão excepcional, evitando clichês comuns de outros modelos. Além de ser uma referência absoluta em programação e lógica complexa com o Claude Code, ele é altamente valorizado por profissionais que buscam análises profundas de documentos extensos e uma interação mais reflexiva, sendo capaz de admitir suas limitações e agir de forma mais transparente em tarefas de raciocínio avançado.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="rodape">
+            <img
+                class="logo"
+                src="logo.png"
+            />
+            Site construído por Guilherme Luvison
+            <div class="circulo">
+                <a href="https://github.com/GuiLuvison37510">
+                    <img src="Icone_GitHub.svg"/>
+                </a>
+            </div>
+            </div>
+        </footer>
+    </body>
+</html>

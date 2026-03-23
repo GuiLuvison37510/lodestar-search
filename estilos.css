@@ -1,16 +1,17 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #121846;
 }
 
 .cabecalho {
-    margin: 5px;
-    background-color: #1545C9;
+    margin: 10px;
+    background: linear-gradient(to right, #00CFFF, #7A00FF, #FF007A);
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 100px;
-    border-radius: 12px;
+    border-radius: 100px;
 }
 
 .logo {
@@ -38,14 +39,14 @@ a {
     display: flex;
     justify-content: space-around;
     height: 500px;
-    background-color: #FFFFFF;
+    background-color: #121846;
     align-items: center;
 }
 
 .caixa1 {
     background-color: #FFE5C8;
-    width: 225px;
-    height: 225px;
+    width: 200px;
+    height: 200px;
     border-radius: 16px;
     justify-content: center;
     align-items: center;
@@ -53,14 +54,14 @@ a {
 }
 
 .caixa1 img {
-    max-width: 200px;
+    max-width: 175px;
     object-fit: contain;
 }
 
 .caixa2 {
-    background-color: #FFEDE8;
-    width: 225px;
-    height: 225px;
+    background-color: #ffffff;
+    width: 200px;
+    height: 200px;
     border-radius: 16px;
     justify-content: center;
     align-items: center;
@@ -68,19 +69,36 @@ a {
 }
 
 .caixa2 img {
-    max-width: 200px;
+    max-width: 175px;
+    object-fit: contain;
+}
+
+.caixa3 {
+    background-color: #FFEDE8;
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.caixa3 img {
+    max-width: 175px;
     object-fit: contain;
 }
 
 .secundaria {
-    margin: 5px;
-    background-color: #009be2;
-    height: 384px;
+    margin: 7.5px;
+    margin-bottom: 35px;
+    background-color: #7605FF;
+    height: 434px;
     padding-top: 20px;
-    border-radius: 12px;
+    border-radius: 24px;
 }
 
 .titulo-secao {
+    padding-bottom: 50px;
     text-align: center;
     margin: 0;
     color: #FFFFFF;
@@ -106,7 +124,7 @@ a {
 
 .rodape {
     display: flex;
-    background-color: #161616;
+    background-color: #4d4d4d;
     color: #ffffff;
     justify-content: space-around;
     align-items: center;
@@ -115,6 +133,12 @@ a {
     font-size: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.rodape p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .circulo {

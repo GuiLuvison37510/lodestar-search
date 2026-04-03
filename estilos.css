@@ -1,16 +1,23 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #121846;
+    background: linear-gradient(to top, #080c25, #0C1133);
 }
 
 .cabecalho {
     margin: 10px;
-    background: linear-gradient(to right, #00CFFF, #7A00FF, #FF007A);
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 100px;
+    border-width: 3.5px;
+    border-style: solid;
+    border-color: transparent;
+    background-image: 
+        linear-gradient(to right, #00E1FF, #183EFF, #6F00FF, #FF008C),
+        linear-gradient(to right, #00E1FFBF, #183EFFBF, #6F00FFBF, #FF008CBF);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
 }
 
 .logo {
@@ -21,33 +28,56 @@ body {
 .menu {
     display: flex;
     list-style: none;
-    gap: 44px;
+    gap: 20px;
     color: #FFFFFF;
     font-weight: bold;
-    font-family: Arial;
+    font-family: 'Segoe UI';
     font-size: 25px;
 }
 
-a {
+.menu a {
     text-decoration: none;
     color: inherit;
+    padding: 10px 20px;
+    /*border-radius: 8px;*/
+    display: inline-block;
+    transition: background-color 0.1s ease, transform 0.1s ease;
+}
+
+.menu a:hover {
+    transform: scale(1.1);
+    background-color: #FFFFFF40;
+}
+
+.menu a:active {
+    transform: scale(0.9);
 }
 
 .principal {
     display: flex;
     justify-content: space-around;
     height: 500px;
-    background-color: #121846;
     align-items: center;
 }
 
 .caixa1 {
-    background-color: #FFE5C8;
+    background-color: #ECECEC;
     width: 200px;
     height: 200px;
     justify-content: center;
     align-items: center;
     display: flex;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: transform 0.1s ease;
+}
+
+.caixa1:hover {
+    transform: scale(1.1);
+}
+
+.caixa1:active {
+    transform: scale(0.9);
 }
 
 .caixa1 img {
@@ -56,12 +86,23 @@ a {
 }
 
 .caixa2 {
-    background-color: #ffffff;
+    background-color: #FFE4D7;
     width: 200px;
     height: 200px;
     justify-content: center;
     align-items: center;
     display: flex;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: transform 0.1s ease;
+}
+
+.caixa2:hover {
+    transform: scale(1.1);
+}
+
+.caixa2:active {
+    transform: scale(0.9);
 }
 
 .caixa2 img {
@@ -70,12 +111,23 @@ a {
 }
 
 .caixa3 {
-    background-color: #FFEDE8;
+    background-color: #FFFFFF;
     width: 200px;
     height: 200px;
     justify-content: center;
     align-items: center;
     display: flex;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: transform 0.1s ease;
+}
+
+.caixa3:hover {
+    transform: scale(1.1);
+}
+
+.caixa3:active {
+    transform: scale(0.9);
 }
 
 .caixa3 img {
@@ -83,11 +135,36 @@ a {
     object-fit: contain;
 }
 
+.caixa4 {
+    background-color: #FFD9AC;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: transform 0.1s ease;
+}
+
+.caixa4:hover {
+    transform: scale(1.1);
+}
+
+.caixa4:active {
+    transform: scale(0.9);
+}
+
+.caixa4 img {
+    max-width: 175px;
+    object-fit: contain;
+}
+
 .secundaria {
     margin: 7.5px;
     margin-bottom: 35px;
-    background-color: #7605FF;
-    height: 434px;
+    background: linear-gradient(to top, #921EFF, #401EFF);
+    height: 450px;
     padding-top: 20px;
 }
 
@@ -97,8 +174,8 @@ a {
     margin: 0;
     color: #FFFFFF;
     font-weight: bold;
-    font-family: Arial;
-    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-size: 25px;
 }
 
 .textos {
@@ -118,8 +195,8 @@ a {
 
 .rodape {
     display: flex;
-    background-color: #4d4d4d;
-    color: #ffffff;
+    background-color: #02030A;
+    color: #FFFFFF;
     justify-content: space-around;
     align-items: center;
     font-family: Arial;
@@ -136,7 +213,7 @@ a {
 }
 
 .circulo {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     width: 40px;
     height: 40px;
     justify-content: center;

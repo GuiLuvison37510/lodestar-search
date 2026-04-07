@@ -1,75 +1,80 @@
+/* Página Inteira*/
 body {
+    background: linear-gradient(to top, #080c25, #0C1133);
     margin: 0;
     padding: 0;
-    background: linear-gradient(to top, #080c25, #0C1133);
 }
-
+ /* Barra Superior */
 .cabecalho {
-    margin: 10px;
-    display: flex;
-    justify-content: space-around;
     align-items: center;
-    height: 100px;
-    border-width: 3.5px;
-    border-style: solid;
-    border-color: transparent;
+    background-clip: padding-box, border-box;
     background-image: 
         linear-gradient(to right, #00E1FF, #183EFF, #6F00FF, #FF008C),
         linear-gradient(to right, #00E1FFBF, #183EFFBF, #6F00FFBF, #FF008CBF);
     background-origin: border-box;
-    background-clip: padding-box, border-box;
+    border-color: transparent;
+    /* border-radius: 100px; */
+    border-style: solid;
+    border-width: 3.5px;
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    margin: 10px;
 }
 
 .logo {
-    width: 80px;
+    /* border-radius: 16px; */
     height: 80px;
+    width: 80px;
 }
 
 .menu {
-    display: flex;
-    list-style: none;
-    gap: 20px;
     color: #FFFFFF;
-    font-weight: bold;
+    display: flex;
     font-family: 'Segoe UI';
     font-size: 25px;
+    font-weight: bold;
+    gap: 20px;
+    list-style: none;
 }
 
 .menu a {
-    text-decoration: none;
-    color: inherit;
-    padding: 10px 20px;
     /*border-radius: 8px;*/
+    color: inherit;
     display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
     transition: background-color 0.1s ease, transform 0.1s ease;
 }
 
 .menu a:hover {
-    transform: scale(1.1);
     background-color: #FFFFFF40;
+    transform: scale(1.1);
 }
 
 .menu a:active {
-    transform: scale(0.9);
+    transform: scale(0.95);
 }
 
-.principal {
-    display: flex;
-    justify-content: space-around;
-    height: 500px;
+/* Acesso Rápido */
+.secao-principal {
     align-items: center;
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
 }
 
 .caixa1 {
+    /* border-radius: 16px; */
+    align-items: center;
     background-color: #ECECEC;
-    width: 200px;
+    box-sizing: border-box;
+    display: flex;
     height: 200px;
     justify-content: center;
-    align-items: center;
-    display: flex;
     overflow: hidden;
-    box-sizing: border-box;
     transition: transform 0.1s ease;
+    width: 200px;
 }
 
 .caixa1:hover {
@@ -77,7 +82,7 @@ body {
 }
 
 .caixa1:active {
-    transform: scale(0.9);
+    transform: scale(0.95);
 }
 
 .caixa1 img {
@@ -86,15 +91,16 @@ body {
 }
 
 .caixa2 {
+    /* border-radius: 16px; */
+    align-items: center;
     background-color: #FFE4D7;
-    width: 200px;
+    box-sizing: border-box;
+    display: flex;
     height: 200px;
     justify-content: center;
-    align-items: center;
-    display: flex;
     overflow: hidden;
-    box-sizing: border-box;
     transition: transform 0.1s ease;
+    width: 200px;
 }
 
 .caixa2:hover {
@@ -102,7 +108,7 @@ body {
 }
 
 .caixa2:active {
-    transform: scale(0.9);
+    transform: scale(0.95);
 }
 
 .caixa2 img {
@@ -111,15 +117,16 @@ body {
 }
 
 .caixa3 {
+    /* border-radius: 16px; */
+    align-items: center;
     background-color: #FFFFFF;
-    width: 200px;
+    box-sizing: border-box;
+    display: flex;
     height: 200px;
     justify-content: center;
-    align-items: center;
-    display: flex;
     overflow: hidden;
-    box-sizing: border-box;
     transition: transform 0.1s ease;
+    width: 200px;
 }
 
 .caixa3:hover {
@@ -127,7 +134,7 @@ body {
 }
 
 .caixa3:active {
-    transform: scale(0.9);
+    transform: scale(0.95);
 }
 
 .caixa3 img {
@@ -136,15 +143,16 @@ body {
 }
 
 .caixa4 {
+    /* border-radius: 16px; */
+    align-items: center;
     background-color: #FFD9AC;
-    width: 200px;
+    box-sizing: border-box;
+    display: flex;
     height: 200px;
     justify-content: center;
-    align-items: center;
-    display: flex;
     overflow: hidden;
-    box-sizing: border-box;
     transition: transform 0.1s ease;
+    width: 200px;
 }
 
 .caixa4:hover {
@@ -152,7 +160,7 @@ body {
 }
 
 .caixa4:active {
-    transform: scale(0.9);
+    transform: scale(0.95);
 }
 
 .caixa4 img {
@@ -160,69 +168,73 @@ body {
     object-fit: contain;
 }
 
-.secundaria {
-    margin: 7.5px;
-    margin-bottom: 35px;
+/* Seção de Comparativos */
+.secao-secundaria {
+    /* border-radius: 24px; */
     background: linear-gradient(to top, #921EFF, #401EFF);
     height: 450px;
+    margin-bottom: 35px;
+    margin: 7.5px;
     padding-top: 20px;
 }
 
-.titulo-secao {
-    padding-bottom: 50px;
-    text-align: center;
-    margin: 0;
+.titulo-secao-secundaria {
     color: #FFFFFF;
-    font-weight: bold;
     font-family: 'Segoe UI';
     font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 50px;
+    text-align: center;
 }
 
-.textos {
-    display: flex;
-    text-align: center;
-    font-size: 15px;
-    color: #FFFFFF;
+.textos-secao-secundaria {
     align-items: center;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Arial;
+    font-size: 15px;
     height: 310px;
     justify-content: space-around;
-    font-family: Arial;
+    text-align: center;
 }
 
-.p-texto {
+.p-texto-secao-secundaria {
     width: 350px;
 }
 
+/* Rodapé */
 .rodape {
-    display: flex;
+    align-items: center;
     background-color: #02030A;
     color: #FFFFFF;
-    justify-content: space-around;
-    align-items: center;
+    display: flex;
     font-family: Arial;
-    font-style: italic;
     font-size: 15px;
-    padding-top: 20px;
+    font-style: italic;
+    justify-content: space-around;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .rodape p {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-.circulo {
+.circulo-rodape {
+    /* border-radius: 100px; */
+    align-items: center;
     background-color: #FFFFFF;
-    width: 40px;
+    display: flex;
     height: 40px;
     justify-content: center;
-    align-items: center;
-    display: flex;
+    width: 40px;
 }
 
-.circulo img {
-    max-width: 45px;
+.circulo-rodape img {
     max-height: 45px;
+    max-width: 45px;
     object-fit: contain;
 }

@@ -4,11 +4,12 @@ body {
     margin: 0;
     padding: 0;
 }
- /* Barra Superior */
+
+/* Barra Superior */
 .cabecalho {
     align-items: center;
     background-clip: padding-box, border-box;
-    background-image: 
+    background-image:
         linear-gradient(to right, #00E1FF, #183EFF, #6F00FF, #FF008C),
         linear-gradient(to right, #00E1FFBF, #183EFFBF, #6F00FFBF, #FF008CBF);
     background-origin: border-box;
@@ -172,10 +173,10 @@ body {
 .secao-secundaria {
     /* border-radius: 24px; */
     background: linear-gradient(to top, #921EFF, #401EFF);
-    height: 450px;
-    margin-bottom: 35px;
+    height: auto;
     margin: 7.5px;
-    padding-top: 20px;
+    min-height: 675px;
+    padding: 20px 20px;
 }
 
 .titulo-secao-secundaria {
@@ -184,23 +185,35 @@ body {
     font-size: 25px;
     font-weight: bold;
     margin: 0;
-    padding-bottom: 50px;
     text-align: center;
 }
 
-.textos-secao-secundaria {
-    align-items: center;
+.itens-secao-secundaria {
+    align-items: left;
     color: #FFFFFF;
     display: flex;
+    flex-direction: column;
     font-family: Arial;
     font-size: 15px;
-    height: 310px;
-    justify-content: space-around;
-    text-align: center;
+    gap: 50px;
+    text-align: justify;
 }
 
-.p-texto-secao-secundaria {
-    width: 350px;
+.item-secao-secundaria {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.item-secao-secundaria img {
+    max-width: 150px;
+    object-fit: contain;
+}
+
+.item-secao-secundaria h3 {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /* Rodapé */

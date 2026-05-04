@@ -1,29 +1,49 @@
-# Search Central with AIs
+# Search Central with AIs Beta
 
-## Introdução
+## O que é o Search Central?
 
-Este projeto, contém um repositório HTML ainda em desenvolvimento, com o objetivo de criar um site onde possa ser acessado todos os meios de busca da web (com IA ou sem IA) em um único lugar, sem precisar acessar outras guias, janelas ou inserir URLs no seu navegador.
+O Search Central with AIs é um projeto feito com HTML e CSS, com o foco de criar uma página web onde ficarão centralizados todos os meios de busca em um só lugar, podendo servir de acesso rápido para uma inteligência artificial (ChatGPT, Copilot, Gemini e Claude) ou para um buscador de web (*será desenvolvido em breve*).
 
-O site foi pensado para ser prático e direto, diminuindo o número de cliques e escritas no navegador.
+O site foi pensado para ser prático e direto, diminuindo o número de cliques e escritas no navegador, eliminando você abrir várias abas no navegador ou ficar transportando de página em página até chegar onde você quer.
 
-Até o momento, o site foi construído apenas com acesso direto ao Microsoft Copilot, Google Gemini e Claude. Suporte para acessar outras IAs e campos de busca (Google e Bing) poderão ser implementados em um futuro próximo.
+No momento, o site ainda não está lançado como URL, sendo necessário baixar os códigos e executá-los manualmente em sua máquina local.
 
-## Para apoio | Como realizar commits do seu repositório e enviar ao GitHub?
+## Recursos e Seções
 
-Como podem ver, no momento, deve haver uns 5 commits do meu repositório (se incluir o commit deste markdown).
+### Barra Superior
 
-Para quem está começando a enviar os arquivos para o GitHub, segue um pequeno passo a passo simples.
+Ficando no topo da página, ele permite abrir os sites de inteligências artificiais mais rapidamente.
 
-O método é rápido, e não exige muito tempo (leva em torno de 10 minutos no máximo).
+Atualmente temos:
 
-**Detalhe importante: Entre as etapas 4 e 5, crie o repositório no GitHub pelo site na interface gráfica!!!**
+1. ChatGPT;
+2. Microsoft Copilot;
+3. Google Gemini;
+4. Claude.
 
-|**Comandos (Terminal)**|**Função**|
-|-|-|
-|**1. git status**|Antes de atualizar, verifique os arquivos que foram modificados.|
-|**2. git add "nome do arquivo"** ou **git add -A**|Comando para adicionar arquivos novos/modificados ao repositório local novamente. O parâmetro "-A" adiciona todos os modificados sem precisar digitar arquivo por arquivo.|
-|**3. git commit -m "nome do commit"**|Cria um novo commit (versão) do seu repositório.|
-|**4. git log**|Verifica os commits do seu repositório. Executar este comando é importante, para verificar se o nome do commit está correto.|
-|**5. git remote add origin "link do GitHub"**|Adiciona e conecta seu repositório local ao GitHub, criando um repositório remoto.|
-|**6. git branch -m "novo nome da branch"**|Quando iniciamos um repositório local, ele vem com uma branch (área de desenvolvimento) chamada (master). No momento de enviar o repositório para o GitHub, será preciso executar este comado e renomear o (master) para (main).|
-|**7. git push -u origin "nome da branch"**|Envia os commits do repositório para o GitHub. Normalmente, em "nome da branch", se usa o main (área de desenvolvimento principal) para quem está iniciando.|
+Além da logotipo do site á esquerda.
+
+### Acesso Rápido
+
+Ficando abaixo da Barra Superior, ele também serve de acesso direto as mesmas inteligências artificiais da Barra Superior.
+
+Mas, no lugar dos nomes, temos imagens, trazendo um visual mais chamativo para o usuário.
+
+### Seção de Comparativos
+
+Aqui, são comparados todos os meios de busca implementados nas seções anteriores.
+
+Além da comparação, está junto a imagem da IA e o título, para facilitar a identificação.
+
+## Planejamentos futuros
+
+**Novos buscadores de IA:** Perplexity, GitHub Copilot, Meta AI, DeepSeek etc.
+
+**Buscadores de Web sem IA:** Google, Bing e Modo IA do Google.
+
+**Barra Superior dinâmica:** Durante a rolagem, a Barra Superior te acompanha com um visual um pouco mais minimalista.
+
+**Nome e Logotipo:** Mudanças no nome e na logotipo do site, trazendo mais exclusividade.
+
+**Documentação das Atualizações:** PDFs descrevendo as principais novidades de cada versão. Possivelmente, será incluindo em algum momento no site.
+

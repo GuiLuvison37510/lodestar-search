@@ -2,7 +2,7 @@
 
 ## O que é o Search Central?
 
-O Search Central with AIs é um projeto feito com HTML e CSS, com o foco de criar uma página web onde ficarão centralizados todos os meios de busca em um só lugar, podendo servir de acesso rápido para uma inteligência artificial (ChatGPT, Copilot, Gemini e Claude) ou para um buscador de web (*será desenvolvido em breve*).
+O Search Central with AIs é um projeto feito com HTML e CSS, com o foco de criar uma página web onde ficarão centralizados todos os meios de busca em um só lugar, podendo servir de acesso rápido para uma inteligência artificial (ChatGPT, Copilot, Gemini, Claude e Perplexity) ou para um buscador de web (*será desenvolvido em breve*).
 
 O site foi pensado para ser prático e direto, diminuindo o número de cliques e escritas no navegador, eliminando você abrir várias abas no navegador ou ficar transportando de página em página até chegar onde você quer.
 
@@ -19,7 +19,8 @@ Atualmente temos:
 1. ChatGPT;
 2. Microsoft Copilot;
 3. Google Gemini;
-4. Claude.
+4. Claude;
+5. Perplexity.
 
 Além da logotipo do site á esquerda.
 
@@ -37,7 +38,7 @@ Além da comparação, está junto a imagem da IA e o título, para facilitar a 
 
 ## Planejamentos futuros
 
-**Novos buscadores de IA:** Perplexity, GitHub Copilot, Meta AI, DeepSeek etc.
+**Novos buscadores de IA:** GitHub Copilot, Meta AI, DeepSeek etc.
 
 **Buscadores de Web sem IA:** Google, Bing e Modo IA do Google.
 

@@ -1,4 +1,4 @@
-/* Página Inteira*/
+/* Página Inteira */
 body {
     background: linear-gradient(to top, #080c25, #0C1133);
     margin: 0;
@@ -14,7 +14,7 @@ body {
         linear-gradient(to right, #00E1FFBF, #183EFFBF, #6F00FFBF, #FF008CBF);
     background-origin: border-box;
     border-color: transparent;
-    /* border-radius: 100px; */
+    border-radius: 100px;
     border-style: solid;
     border-width: 3.5px;
     display: flex;
@@ -24,7 +24,7 @@ body {
 }
 
 .logo {
-    /* border-radius: 16px; */
+    border-radius: 16px;
     height: 80px;
     width: 80px;
 }
@@ -40,7 +40,7 @@ body {
 }
 
 .menu a {
-    /*border-radius: 8px;*/
+    border-radius: 8px;
     color: inherit;
     display: inline-block;
     padding: 10px 20px;
@@ -65,10 +65,10 @@ body {
     justify-content: space-around;
 }
 
-.caixa1 {
-    /* border-radius: 16px; */
+.seletor {
     align-items: center;
     background-color: #FFFFFF;
+    border-radius: 16px;
     box-sizing: border-box;
     display: flex;
     height: 200px;
@@ -78,126 +78,22 @@ body {
     width: 200px;
 }
 
-.caixa1:hover {
+.seletor:hover {
     transform: scale(1.1);
 }
 
-.caixa1:active {
+.seletor:active {
     transform: scale(0.95);
 }
 
-.caixa1 img {
-    max-width: 175px;
-    object-fit: contain;
-}
-
-.caixa2 {
-    /* border-radius: 16px; */
-    align-items: center;
-    background-color: #FFFFFF;
-    box-sizing: border-box;
-    display: flex;
-    height: 200px;
-    justify-content: center;
-    overflow: hidden;
-    transition: transform 0.1s ease;
-    width: 200px;
-}
-
-.caixa2:hover {
-    transform: scale(1.1);
-}
-
-.caixa2:active {
-    transform: scale(0.95);
-}
-
-.caixa2 img {
-    max-width: 175px;
-    object-fit: contain;
-}
-
-.caixa3 {
-    /* border-radius: 16px; */
-    align-items: center;
-    background-color: #FFFFFF;
-    box-sizing: border-box;
-    display: flex;
-    height: 200px;
-    justify-content: center;
-    overflow: hidden;
-    transition: transform 0.1s ease;
-    width: 200px;
-}
-
-.caixa3:hover {
-    transform: scale(1.1);
-}
-
-.caixa3:active {
-    transform: scale(0.95);
-}
-
-.caixa3 img {
-    max-width: 175px;
-    object-fit: contain;
-}
-
-.caixa4 {
-    /* border-radius: 16px; */
-    align-items: center;
-    background-color: #FFFFFF;
-    box-sizing: border-box;
-    display: flex;
-    height: 200px;
-    justify-content: center;
-    overflow: hidden;
-    transition: transform 0.1s ease;
-    width: 200px;
-}
-
-.caixa4:hover {
-    transform: scale(1.1);
-}
-
-.caixa4:active {
-    transform: scale(0.95);
-}
-
-.caixa4 img {
-    max-width: 175px;
-    object-fit: contain;
-}
-
-.caixa5 {
-    /* border-radius: 16px; */
-    align-items: center;
-    background-color: #FFFFFF;
-    box-sizing: border-box;
-    display: flex;
-    height: 200px;
-    justify-content: center;
-    overflow: hidden;
-    transition: transform 0.1s ease;
-    width: 200px;
-}
-
-.caixa5:hover {
-    transform: scale(1.1);
-}
-
-.caixa5:active {
-    transform: scale(0.95);
-}
-
-.caixa5 img {
+.seletor img {
     max-width: 175px;
     object-fit: contain;
 }
 
 /* Seção de Comparativos */
 .secao-secundaria {
-    /* border-radius: 24px; */
+    border-radius: 24px;
     background: linear-gradient(to top, #921EFF, #401EFF);
     height: auto;
     margin: 25px;
@@ -234,7 +130,7 @@ body {
 
 .item-secao-secundaria img {
     background-color: #FFFFFF1A;
-    /* border-radius: 16px; */
+    border-radius: 16px;
     max-width: 125px;
     object-fit: contain;
     padding: 7.5px;
@@ -243,6 +139,16 @@ body {
 .item-secao-secundaria h3 {
     font-size: 20px;
     font-weight: bold;
+}
+
+.aviso-secao-secundaria {
+    color: #FFFF00;
+    display: flex;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: italic;
+    gap: 50px;
+    justify-content: center;
 }
 
 /* Rodapé */
@@ -266,9 +172,9 @@ body {
 }
 
 .circulo-rodape {
-    /* border-radius: 100px; */
     align-items: center;
     background-color: #FFFFFF;
+    border-radius: 100px;
     display: flex;
     height: 40px;
     justify-content: center;

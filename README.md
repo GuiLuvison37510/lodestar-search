@@ -1,4 +1,4 @@
-# Search Central with AIs Beta
+# Search Central with AIs
 
 ## O que é o Search Central?
 

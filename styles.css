@@ -24,7 +24,7 @@ body {
 }
 
 .logo {
-    border-radius: 16px;
+    border-radius: 24px;
     height: 80px;
     width: 80px;
 }
@@ -40,7 +40,7 @@ body {
 }
 
 .menu a {
-    border-radius: 8px;
+    border-radius: 24px;
     color: inherit;
     display: inline-block;
     padding: 10px 20px;
@@ -49,7 +49,7 @@ body {
 }
 
 .menu a:hover {
-    background-color: #FFFFFF40;
+    background-color: #FFFFFF26;
     transform: scale(1.1);
 }
 
@@ -61,14 +61,15 @@ body {
 .secao-principal {
     align-items: center;
     display: flex;
-    height: 500px;
+    height: auto;
     justify-content: space-around;
+    min-height: 500px;
 }
 
 .seletor {
     align-items: center;
     background-color: #FFFFFF;
-    border-radius: 16px;
+    border-radius: 24px;
     box-sizing: border-box;
     display: flex;
     height: 200px;
@@ -89,6 +90,7 @@ body {
 .seletor img {
     max-width: 175px;
     object-fit: contain;
+    width: auto;
 }
 
 /* Seção de Comparativos */
@@ -97,8 +99,8 @@ body {
     background: linear-gradient(to top, #921EFF, #401EFF);
     height: auto;
     margin: 25px;
-    min-height: 675px;
-    padding: 20px 20px;
+    min-height: 25px;
+    padding: 20px;
 }
 
 .titulo-secao-secundaria {
@@ -130,7 +132,7 @@ body {
 
 .item-secao-secundaria img {
     background-color: #FFFFFF1A;
-    border-radius: 16px;
+    border-radius: 24px;
     max-width: 125px;
     object-fit: contain;
     padding: 7.5px;
@@ -154,7 +156,8 @@ body {
 /* Rodapé */
 .rodape {
     align-items: center;
-    background-color: #02030A;
+    background-color: #000000;
+    border-top: #2D2D2D solid 2px;
     color: #FFFFFF;
     display: flex;
     font-family: Arial;
@@ -182,6 +185,10 @@ body {
 }
 
 .circulo-rodape img {
+    border-color: #FFFFFF;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 2.5px;
     max-height: 45px;
     max-width: 45px;
     object-fit: contain;

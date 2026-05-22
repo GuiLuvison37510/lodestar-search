@@ -1,12 +1,12 @@
-# Search Central with AIs Beta
+# Lodestar Search Beta
 
-## O que é o Search Central?
+## O que é o Lodestar Search?
 
-O Search Central with AIs é um projeto feito com HTML e CSS, com o foco de criar uma página web onde ficarão centralizados todos os meios de busca em um só lugar, podendo servir de acesso rápido para uma inteligência artificial (ChatGPT, Copilot, Gemini, Claude e Perplexity) ou para um buscador de web (*será desenvolvido em breve*).
+O Lodestar Search é um projeto feito com HTML e CSS, com o foco de criar uma página web onde ficarão centralizados todos os meios de busca em um só lugar, podendo servir de acesso rápido para uma inteligência artificial (ChatGPT, Copilot, Gemini, Claude e Perplexity) ou para um buscador de web (*será desenvolvido em breve*).
 
 O site foi pensado para ser prático e direto, diminuindo o número de cliques e escritas no navegador, eliminando você abrir várias abas no navegador ou ficar transportando de página em página até chegar onde você quer.
 
-No momento, o site ainda não está lançado como URL, sendo necessário baixar os códigos e executá-los manualmente em sua máquina local.
+No momento, o Search Central with AIs v3.0 está lançado como URL no GitHub Pages, mas as versões betas ainda será necessário baixar os códigos e executá-los manualmente em sua máquina local.
 
 ## Recursos e Seções
 
@@ -44,7 +44,7 @@ Além da comparação, está junto a imagem da IA e o título, para facilitar a 
 
 **Barra Superior dinâmica:** Durante a rolagem, a Barra Superior te acompanha com um visual um pouco mais minimalista.
 
-**Nome e Logotipo:** Mudanças no nome e na logotipo do site, trazendo mais exclusividade.
+**Logotipo:** Mudanças na logotipo do site, trazendo mais exclusividade.
 
 **Documentação das Atualizações:** PDFs descrevendo as principais novidades de cada versão. Possivelmente, será incluindo em algum momento no site.
 

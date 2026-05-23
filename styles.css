@@ -1,8 +1,17 @@
+/* Sem bordas arredondadas para as versões beta */
+* {
+    border-radius: 0 !important;
+}
+
 /* Página Inteira */
 body {
-    background: linear-gradient(to top, #080c25, #0C1133);
+    background: linear-gradient(to top, rgb(7, 15, 31), rgb(15, 15, 46));
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-direction: column;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
 }
 
 /* Barra Superior */
@@ -10,37 +19,36 @@ body {
     align-items: center;
     background-clip: padding-box, border-box;
     background-image:
-        linear-gradient(to right, #00E1FF, #183EFF, #6F00FF, #FF008C),
-        linear-gradient(to right, #00E1FFBF, #183EFFBF, #6F00FFBF, #FF008CBF);
+        linear-gradient(to right, rgb(0, 225, 255), rgb(0, 127, 255), rgb(0, 63, 255), rgb(63, 0, 255), rgb(127, 0, 255), rgb(255, 0, 255)),
+        linear-gradient(to right, rgba(0, 225, 255, 0.70), rgba(0, 63, 255, 0.70), rgba(63, 0, 255, 0.70), rgba(255, 0, 255, 0.70));
     background-origin: border-box;
     border-color: transparent;
     border-radius: 100px;
     border-style: solid;
-    border-width: 3.5px;
+    border-width: 4px;
     display: flex;
-    height: 100px;
+    height: 72.5px;
     justify-content: space-around;
-    margin: 10px;
+    margin: 10px 20px;
 }
 
 .logo {
     border-radius: 24px;
-    height: 80px;
-    width: 80px;
+    max-width: 65px;
+    width: auto;
 }
 
 .menu {
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
     display: flex;
-    font-family: 'Segoe UI';
-    font-size: 25px;
+    font-size: 22.5px;
     font-weight: bold;
-    gap: 20px;
+    gap: 15.5px;
     list-style: none;
 }
 
 .menu a {
-    border-radius: 24px;
+    border-radius: 100px;
     color: inherit;
     display: inline-block;
     padding: 10px 20px;
@@ -49,7 +57,7 @@ body {
 }
 
 .menu a:hover {
-    background-color: #FFFFFF26;
+    background-color: rgba(255, 255, 255, 0.149);
     transform: scale(1.1);
 }
 
@@ -61,22 +69,24 @@ body {
 .secao-principal {
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     height: auto;
     justify-content: space-around;
-    min-height: 500px;
+    min-height: 400px;
 }
 
 .seletor {
     align-items: center;
-    background-color: #FFFFFF;
+    background-color: rgb(255, 255, 255);
     border-radius: 24px;
     box-sizing: border-box;
     display: flex;
-    height: 200px;
+    height: 175px;
     justify-content: center;
+    margin: 5px;
     overflow: hidden;
     transition: transform 0.1s ease;
-    width: 200px;
+    width: 175px;
 }
 
 .seletor:hover {
@@ -88,7 +98,7 @@ body {
 }
 
 .seletor img {
-    max-width: 175px;
+    max-width: 150px;
     object-fit: contain;
     width: auto;
 }
@@ -96,17 +106,16 @@ body {
 /* Seção de Comparativos */
 .secao-secundaria {
     border-radius: 24px;
-    background: linear-gradient(to top, #921EFF, #401EFF);
+    background: linear-gradient(to top, rgb(127, 31, 255), rgb(63, 31, 255));
     height: auto;
-    margin: 25px;
+    margin: 20px;
     min-height: 25px;
     padding: 20px;
 }
 
 .titulo-secao-secundaria {
-    color: #FFFFFF;
-    font-family: 'Segoe UI';
-    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 22.5px;
     font-weight: bold;
     margin: 0;
     text-align: center;
@@ -114,12 +123,11 @@ body {
 
 .itens-secao-secundaria {
     align-items: left;
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    font-family: Arial;
     font-size: 15px;
-    gap: 50px;
+    gap: 20px;
     text-align: justify;
 }
 
@@ -127,13 +135,13 @@ body {
     align-items: center;
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 20px;
 }
 
 .item-secao-secundaria img {
-    background-color: #FFFFFF1A;
+    background-color: rgba(255, 255, 255, 0.12);
     border-radius: 24px;
-    max-width: 125px;
+    max-width: 100px;
     object-fit: contain;
     padding: 7.5px;
 }
@@ -144,28 +152,26 @@ body {
 }
 
 .aviso-secao-secundaria {
-    color: #FFFF00;
+    color: rgb(255, 255, 0);
     display: flex;
-    font-family: Arial;
-    font-size: 16px;
+    font-size: 17.5px;
     font-style: italic;
-    gap: 50px;
     justify-content: center;
 }
 
 /* Rodapé */
 .rodape {
     align-items: center;
-    background-color: #000000;
-    border-top: #2D2D2D solid 2px;
-    color: #FFFFFF;
+    background-color: rgb(0, 0, 0);
+    border-top: rgb(45, 45, 45) solid 2px;
+    bottom: 0;
+    color: rgb(255, 255, 255);
     display: flex;
-    font-family: Arial;
     font-size: 15px;
     font-style: italic;
     justify-content: space-around;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    margin-top: auto;
+    padding: 20px 0px;
 }
 
 .rodape p {
@@ -176,7 +182,7 @@ body {
 
 .circulo-rodape {
     align-items: center;
-    background-color: #FFFFFF;
+    background-color: rgb(255, 255, 255);
     border-radius: 100px;
     display: flex;
     height: 40px;
@@ -185,7 +191,7 @@ body {
 }
 
 .circulo-rodape img {
-    border-color: #FFFFFF;
+    border-color: rgb(255, 255, 255);
     border-radius: 100px;
     border-style: solid;
     border-width: 2.5px;

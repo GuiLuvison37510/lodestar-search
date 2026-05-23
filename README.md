@@ -6,7 +6,7 @@ O Lodestar Search é um projeto feito com HTML e CSS, com o foco de criar uma p�
 
 O site foi pensado para ser prático e direto, diminuindo o número de cliques e escritas no navegador, eliminando você abrir várias abas no navegador ou ficar transportando de página em página até chegar onde você quer.
 
-No momento, o Search Central with AIs v3.0 está lançado como URL no GitHub Pages, mas as versões betas ainda será necessário baixar os códigos e executá-los manualmente em sua máquina local.
+No momento, o Search Central with AIs v3.0 está lançado como URL no GitHub Pages, mas para as versões beta ainda será necessário baixar os códigos e executá-los manualmente em sua máquina local.
 
 ## Recursos e Seções
 
